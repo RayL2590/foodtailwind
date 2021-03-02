@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Super Recettes!</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="text-gray-600 font-body">
@@ -12,7 +12,7 @@
       <nav class="text-right">
         <div class="flex justify-between items-center">
           <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-            <a href="/" class="hover:text-gray-700">Food Ninja</a>
+            <a href="/" class="hover:text-gray-700">Super Recettes !</a>
           </h1>
           <div class="px-4 cursor-pointer md:hidden" id="burger">
             <svg class="w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -21,13 +21,13 @@
         <ul class="mt-6 hidden md:block" id="menu">
           <li class="text-gray-700 font-bold py-1">
             <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
-              <span>Home</span>
+              <span>Accueil</span>
               <svg class="w-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
             </a>
           </li>
           <li class="py-1">
             <a href="#" class="px-4 flex justify-end border-r-4 border-white">
-              <span>About</span>
+              <span>Le Projet</span>
               <svg class="w-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </a>
           </li>
@@ -43,36 +43,35 @@
   
     <main class="px-16 py-6 bg-gray-100 md:col-span-2">
       <div class="flex justify-center md:justify-end">
-        <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
-        <a href="#" class="btn text-primary border-primary md:border-2 ml-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign up</a>
+        <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Connection</a>
+        <a href="#" class="btn text-primary border-primary md:border-2 ml-2 hover:bg-primary hover:text-white transition ease-out duration-500">Inscription</a>
       </div>
 
       <header>
-        <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
-        <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        <h2 class="text-gray-700 text-6xl font-semibold">Recettes</h2>
+        <h3 class="text-2xl font-semibold">Pour Gourmants</h3>
       </header>
 
       <div>
-        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Recipes</h4>
+        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Dernières Recettes</h4>
   
         <div class="mt-8 grid md:grid-cols-3 gap-8">
-          <!-- cards go here -->
           <div class="card hover:shadow-lg"> 
-            <img src="img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+            <img src="img/chili.jpg" alt="chili" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4">
-              <span class="font-bold">5 Bean Chili Stew</span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              <span class="font-bold">Mijoté de chili</span>
+              <span class="block text-gray-500 text-sm">Recette de Martin</span>
             </div>
             <div class="badge">
             <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              <span>25 mins</span>
+              <span>30 mins</span>
             </div>
           </div>
           <div class="card hover:shadow-lg"> 
-            <img src="img/noodles.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover">
+            <img src="img/nouilles.jpg" alt="nouilles" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4">
-              <span class="font-bold">Veg Noodles</span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              <span class="font-bold">Nouilles Végétariennes</span>
+              <span class="block text-gray-500 text-sm">Recette de Maria</span>
             </div>
             <div class="badge">
             <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -82,8 +81,8 @@
           <div class="card hover:shadow-lg"> 
             <img src="img/curry.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4">
-              <span class="font-bold">Tofu Curry</span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              <span class="font-bold">Tofu au Curry</span>
+              <span class="block text-gray-500 text-sm">Recette de Samia</span>
             </div>
             <div class="badge">
             <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -92,15 +91,47 @@
           </div>
         </div>
 
-        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
+        <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Les Plus Populaires</h4>
 
-        <div class="mt-8">
-          <!-- cards go here -->
+        <div class="mt-8 grid md:grid-cols-3 gap-8">
+          <div class="card hover:shadow-lg"> 
+            <img src="img/ravioli.jpg" alt="ravioli" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Ravioli d'été</span>
+              <span class="block text-gray-500 text-sm">Recette de Marina</span>
+            </div>
+            <div class="badge">
+            <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>20 mins</span>
+            </div>
+          </div>
+          <div class="card hover:shadow-lg"> 
+            <img src="img/salade.jpg" alt="salade" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Salade Composée</span>
+              <span class="block text-gray-500 text-sm">Recette de Phillipe</span>
+            </div>
+            <div class="badge">
+            <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>25 mins</span>
+            </div>
+          </div>
+          <div class="card hover:shadow-lg"> 
+            <img src="img/soupe.jpg" alt="soupe" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Soupe de Carrotes Veggy</span>
+              <span class="block text-gray-500 text-sm">Recette de Hugo</span>
+            </div>
+            <div class="badge">
+            <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>15 mins</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="flex justify-center">
-        <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">Load more</div>
+      <div class="flex justify-center mt-8">
+        <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">En Voir Plus</div>
       </div>    
     </main>
   </div>
